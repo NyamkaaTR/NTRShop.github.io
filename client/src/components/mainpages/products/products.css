@@ -1,0 +1,111 @@
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    justify-items: center;
+    margin: 20px 0;
+    text-decoration: none
+}
+
+
+/* ----------- Product Item ----------------- */
+@import url("../utils/productItem/productItem.css");
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+.delete-all span{
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+}
+.delete-all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+/* -------------------- Load More --------------- */
+.load_more{
+    text-align: center;
+}
+.load_more button{
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    text-transform: capitalize;
+}
+
+.slide-container {
+    width:100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    scrollbar-arrow-color: transparent;
+}
+
+.image {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+
+footer {
+    background: var(--color-bg2);
+    margin-top: 5rem;
+    font-size: 0.9rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-decoration: none;  
+
+}
+  
+  .footer__container {
+    text-align: start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .footer__container > div h4 {
+    margin-bottom: 1.2rem;
+    margin-top: 2rem;
+  }
+  
+  .footer__1 p {
+    margin: 0 0 2rem;
+  }
+  .footer__3 li {
+    width: 20px;
+    margin: auto;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.7rem;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  li {
+    color: white;
+  }
